@@ -3,5 +3,34 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CheckTwoArrayEqual",
+            "request": "launch",
+            "mainClass": "CheckTwoArrayEqual",
+            "projectName": "30days-of-challenge-internshala_221a96ce"
+        },
+        {
+            "type": "java",
+            "name": "ReversedAnString2",
+            "request": "launch",
+            "mainClass": "ReversedAnString2",
+            "projectName": "30days-of-challenge-internshala_221a96ce"
+        },
+        {
+            "type": "java",
+            "name": "ReversedAnString",
+            "request": "launch",
+            "mainClass": "ReversedAnString",
+            "projectName": "30days-of-challenge-internshala_221a96ce"
+        },
+        {
+            "type": "java",
+            "name": "ReversedAnArray",
+            "request": "launch",
+            "mainClass": "ReversedAnArray",
+            "projectName": "30days-of-challenge-internshala_221a96ce"
+        }
+    ]
 }
