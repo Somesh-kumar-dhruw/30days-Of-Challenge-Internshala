@@ -20,13 +20,13 @@ if (areEqual) {
 }
 
 // Method 3: Using a custom function
-function arraysAreEqual(arr1, arr2) {
-  if (arr1.length !== arr2.length) {
+function arraysAreEqual(a, b) {
+  if (a.length !== b.length) {
     return false; // Arrays are not equal if they have different lengths
   }
 
-  for (var i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) {
+  for (var i = 0; i < a.length; i++) {
+    if (a[i] !== b[i]) {
       return false; // Arrays are not equal if any elements differ
     }
   }
